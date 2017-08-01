@@ -1,5 +1,7 @@
 # Sitepoint: A Beginner’s Guide to Webpack 2 and Module Bundling #
 >[LINK TO THE TUTORIAL HERE](https://www.sitepoint.com/beginners-guide-to-webpack-2-and-module-bundling/) or download the [FULL DEMO APP FROM GITHUB](https://github.com/sitepoint-editors/webpack-demo)  
+[WEBPACK 2](https://webpack.js.org)
+[WEBPACK](https://webpack.github.io/)
 
 ## Branches: ##
 **1.0 - A Basic Project Template**  
@@ -101,3 +103,7 @@ The scripts section of `package.json`:
 Running `npm start` from the command line will start webpack in watch mode which will recompile the bundle whenever a `.js` file is changed in the `src` directory. The output in the console displays feedback regarding the bundles being created, it’s important to keep an eye on the number of bundles and the size.
 
 Running `npm run build` from the command line will create a production ready (minified, etc) version, to the defined `output:`.
+
+### LINKS ###
+[WEBPACK 2: configuration](https://webpack.js.org/configuration/entry-context/)
+[Getting Started with webpack 2](https://blog.madewithenvy.com/getting-started-with-webpack-2-ed2b86c68783)
